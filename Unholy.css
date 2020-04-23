@@ -1,0 +1,28 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-image: url(https://i.imgur.com/qrtxfSq.jpg);
+	background-size: cover;
+}
+#face{
+	text-align: center;
+	padding-top: 15%;
+}
+h1,h3{
+	font-family: "Permanent Marker";
+	color: red;
+	text-shadow: 20px 20px 1.5em red,
+				 20px 20px 1em red,
+				 20px 20px 1em black;
+				 
+}
+h1{
+	font-size: 5em;
+}
+hr{
+	width: 500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
