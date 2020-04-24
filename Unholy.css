@@ -1,28 +1,32 @@
-html{
-	height: 100%;
+#carouselExampleIndicators{
+    width: 80%;
+    
+}
+.carousel-inner img {
+    margin-left: 250px;
+    width: 75%;;
+    max-height: 75%;
+  }
+h1{
+    font-family: 'Permanent Marker';
+    background: -webkit-linear-gradient(#0062ff, #6fff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+}
+p{
+    font-family: 'Bangers';
+    background: -webkit-linear-gradient(#dd2013, #0e10a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+.jumbotron{
+    background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood-background-1.jpg);
 }
 
 body{
-	background-image: url(https://i.imgur.com/qrtxfSq.jpg);
-	background-size: cover;
-}
-#face{
-	text-align: center;
-	padding-top: 15%;
-}
-h1,h3{
-	font-family: "Permanent Marker";
-	color: red;
-	text-shadow: 20px 20px 1.5em red,
-				 20px 20px 1em red,
-				 20px 20px 1em black;
-				 
-}
-h1{
-	font-size: 5em;
-}
-hr{
-	width: 500px;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(#918180, #222227);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
